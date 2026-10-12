@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "PeterPortfolio",
+    "slug": "peter-portfolio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "package": "rw.ac.ines.ug2426559.peterportfolio",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow PeterPortfolio to select a profile picture from your gallery.",
+          "cameraPermission": "Allow PeterPortfolio to take a profile picture."
+        }
+      ]
+    ]
+  }
+}
